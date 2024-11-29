@@ -6,11 +6,9 @@ class Program
    public static void Main(String[] args){
     Console.WriteLine(Heslo.maxDelkaHesla);
 
-    Heslo mojeHeslo = new Heslo
+    Heslo mojeHeslo = new Heslo();
 
-    Console.WriteLine(mojeHeslo.)
-
-
+    Console.WriteLine(mojeHeslo.MaxDelkaHesla)
    }
 
 }
