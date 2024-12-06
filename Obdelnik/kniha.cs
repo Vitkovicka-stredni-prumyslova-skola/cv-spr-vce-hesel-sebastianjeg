@@ -1,6 +1,6 @@
 
 
-namespace Kniha
+namespace Knihovna
 {
     // Rozhraní pro knihy
     public interface IKniha
@@ -8,7 +8,6 @@ namespace Kniha
         string Nazev();  
         string Autor(); 
         int RokVydani(); 
-        void VypisInformace(); 
     }
 
     
@@ -42,6 +41,14 @@ namespace Kniha
         }
 
     }
+    string[] Kniha1 = ("1984", "George Orwell", "1949");
+
+
+
+def VypisKnih();
+
+ 
+
 
 
   }  

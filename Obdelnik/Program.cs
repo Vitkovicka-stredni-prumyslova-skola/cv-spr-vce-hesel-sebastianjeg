@@ -1,14 +1,14 @@
-namespace SpravceHesel
+namespace Knihovna
 {
 
 class Program
 {
    public static void Main(String[] args){
-    Console.WriteLine(Heslo.maxDelkaHesla);
+    Console.WriteLine("Knihovna");
 
-    Heslo mojeHeslo = new Heslo();
+    Kniha Kniha1 = new Kniha();
 
-    Console.WriteLine(mojeHeslo.MaxDelkaHesla)
+    
    }
 
 }
